@@ -1,0 +1,120 @@
+*, body{
+    font-family: 'Montserrat', sans-serif;
+    color: #000, 0, 0;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 400px;
+    height: 250px;
+    padding: 10px 20px;
+    margin: 50px auto;
+    border: #000 2px solid;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+h1{
+    text-align: center;
+    font-weight: 700;
+}
+
+.input-section__label{
+    margin: 5px 0;
+}
+
+.input-section__input{
+    border: 1px solid #000;
+    width: 100%;
+    text-align: center;
+    padding: 2px 0;
+    
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.answer {
+    padding-bottom: 5px;
+}
+
+.answer {
+    color: black;
+    text-align: center;
+    font-weight: 700;
+    border-bottom: 1px #000 solid;
+}
+
+
+
+
+/* p.distance{
+    border: none;
+    text-align: center;
+    width: auto;
+}
+
+
+#convert{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+#distanceValue{
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 700;
+    border: 2px solid #000 ;
+}
+
+::placeholder{
+    color: #949494;
+    font-weight: 400;
+}
+
+.convertDist{
+    background-color: #0e0e0e;
+    color: #fff;
+    border: none;
+    height: 30px;
+    cursor: pointer;
+    font-weight: 700;
+    padding: 0;
+    
+}
+
+.convertDist:hover{
+    background-color: #3b3b3b;
+}
+
+.answer{
+    padding-bottom: 5px;
+}
+
+.invisible{    
+    color: transparent;
+    border-bottom: 1px #000 solid;
+}
+
+.answerValue{
+    text-align: center;
+    font-weight: 700;
+    border-bottom: 1px #000 solid;
+}
+
+.instruction{
+    font-weight: 300;
+    font-size: 14px;
+    text-align: center;
+} */
