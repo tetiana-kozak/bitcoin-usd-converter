@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,30 +7,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/reset_style.css">
     <link rel="stylesheet" href="assets/style.css">
-    
     <title>Bitcoin Converter</title>
 </head>
-
 <body>
     <main class="container">
         <h1>Bitcoin to USD Converter</h1>
-
         <div class="container__input-section">
             <p class="input-section__label">What is Bitcoin price today?</p>
             <input type="number" class="input-section__input" id="bitcoin-price">
         </div>
-
         <div class="container__input-section">
             <p class="input-section__label">How much $ do you have?</p>
             <input class="input-section__input" type="number" id="usd-value">
         </div>
-
-        <div class="container__answer">
-            <p class="answer" id="answer">You can buy 0 BTC</p>
+        <div class="container__bitcoin-value">
+            <p class="bitcoin-value" id="bitcoin-value">You can buy 0 BTC</p>
         </div>
-
     </main>
     <script src="script.js"></script>
 </body>
-
 </html>
